@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
 		val txtvLowerNumber = findViewById<TextView>(R.id.txtvLowerNumber)
 		val txtvAverage = findViewById<TextView>(R.id.txtvAverage)
 		val txtvHigherNumber = findViewById<TextView>(R.id.txtvHigherNumber)
-
+		val btnCloseApp = findViewById<Button>(R.id.btnCloseApp)
 		btnGenerate.setOnClickListener {
 			// Create an array of 10 random integers between 1 and 100
 			val arrayGenerated = IntArray(10) { Random.nextInt(1, 101) }
@@ -26,6 +26,11 @@ class MainActivity : AppCompatActivity() {
 			txtvLowerNumber.text = "The lowest number is: ${arrayGenerated.minOrNull().toString()}" // Calculate and display the lowest number in the array
 			txtvAverage.text = "The average is: ${arrayGenerated.average()}" // Calculate and display the average of the numbers in the array
 			txtvHigherNumber.text = "The highest number is: ${arrayGenerated.maxOrNull().toString()}" // Calculate and display the average of the numbers in the array
+		}
+
+		btnCloseApp.setOnClickListener {
+			// Close app
+			finish()
 		}
 	}
 }
