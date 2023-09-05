@@ -22,7 +22,8 @@ The app offers a straightforward and user-friendly interface where you can simpl
 
 ## Screenshots
 
-[]
+<img src="Screenshot_20230904_194809.png" alt="Captura de Pantalla 1" width="400" />
+<img src="Screenshot_20230904_195019.png" alt="Captura de Pantalla 2" width="400" />
 
 ## Feedback
 
