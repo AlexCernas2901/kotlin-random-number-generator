@@ -22,7 +22,7 @@ The app offers a straightforward and user-friendly interface where you can simpl
 
 ## Screenshots
 
-[Include screenshots or visual representations of your app here.]
+[]
 
 ## Feedback
 
