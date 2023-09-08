@@ -27,7 +27,7 @@ The app offers a straightforward and user-friendly interface where you can simpl
 
 ## Feedback
 
-If you have any feedback, suggestions, or issues to report, please feel free to [create an issue](https://github.com/yourusername/your-repo-name/issues).
+If you have any feedback, suggestions, or issues to report, please feel free to [create an issue](https://github.com/AlexCernas2901/kotlin-random-number-generator/issues).
 
 ## License
 
